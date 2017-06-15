@@ -13,9 +13,7 @@ http {
 
 ```
 location / {
-  index  index.php index.html index.htm;
-  try_files $uri $uri/ /index.php?$query_string;
-  deny 183.61.112.4;
+  deny x.x.x.x;
 }
 ```
 
